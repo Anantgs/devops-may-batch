@@ -1,0 +1,18 @@
+[root@ip-172-31-93-236 /]#
+[root@ip-172-31-93-236 /]#
+[root@ip-172-31-93-236 /]# ls -l |grep -i rakesh
+drwxr-xr-x.   3 root root  4096 Jun  7 07:21 rakesh
+[root@ip-172-31-93-236 /]#
+[root@ip-172-31-93-236 /]#
+[root@ip-172-31-93-236 /]#
+[root@ip-172-31-93-236 /]# vim test.txt
+[root@ip-172-31-93-236 /]#
+[root@ip-172-31-93-236 /]#
+[root@ip-172-31-93-236 /]#
+[root@ip-172-31-93-236 /]#
+[root@ip-172-31-93-236 /]# cat test.txt |grep -i Partition
+Partition – Spreads your instances across logical partitions such that groups of instances in one partition do not share the underlying hardware with groups of instances in different partitions. This strategy is typically used by large distributed and replicated workloads, such as Hadoop, Cassandra, and Kafka.
+Amazon EC2 instance placement strategies influence instance placement. Partition strategy spreads instances across logical partitions. Cluster strategy packs instances close together. Spread rack/host strategies reduce correlated failures.
+[root@ip-172-31-93-236 /]#
+
+
